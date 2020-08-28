@@ -1,0 +1,24 @@
+<%- include('templates/header.ejs') %>
+
+<div class="container mt-5 shadow-lg">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb bg-primary">
+                          <li class="breadcrumb-item active " style="color: white !important" aria-current="page">Home</li>
+                        </ol>
+                      </nav>
+                </div>
+                <div class="card-body">
+                    <h3>
+                        Anda Login Sebagai <%= data.data.nama %>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('templates/footer.ejs') %>
